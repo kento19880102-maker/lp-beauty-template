@@ -66,15 +66,15 @@ export const site: SiteContent = {
     href: "#contact",
   },
   psychology: {
-    scarcityBanner: { enabled: true, text: "今月限定: 初回トライアルコースが50%OFF" },
+    scarcityBanner: { enabled: false, text: "今月限定: 初回トライアルコースが50%OFF" },
     socialProofStats: [
-      { label: "お客様満足度", value: "98%" },
-      { label: "リピート率", value: "87%" },
-      { label: "施術実績", value: "500件以上" },
+      { value: "完全個室", label: "プライベート空間" },
+      { value: "当日OK", label: "当日予約受付中" },
+      { value: "カウンセリング", label: "丁寧なヒアリング" },
     ],
-    lossAversion: { enabled: true, text: "肌・爪のケアを後回しにするほど、回復にかかる時間と費用が増えていきます。" },
-    priceAnchoring: { enabled: true },
-    limitedOffer: { enabled: true, text: "5月限定 / 初回体験コース先着10名様" },
+    lossAversion: { enabled: false, text: "肌・爪のケアを後回しにするほど、回復にかかる時間と費用が増えていきます。" },
+    priceAnchoring: { enabled: false },
+    limitedOffer: { enabled: false, text: "5月限定 / 初回体験コース先着10名様" },
   },
   hero: {
     title: "自分だけの時間を、ここで。",
@@ -183,7 +183,7 @@ export const site: SiteContent = {
         regularPrice: "18,000円",
         currentPrice: "9,800円",
         recommended: true,
-        badge: "人気No.1",
+        badge: "おすすめ",
         features: ["ジェルネイル（手）", "フェイシャルケア30分", "ケアカウンセリング", "アート1本無料"],
       },
       {
