@@ -46,10 +46,10 @@ export interface SiteContent {
 }
 
 export const site: SiteContent = {
-  company: "Salon AOI",
+  company: "Beauté Mirenu",
   meta: {
-    title: "Salon AOI | ネイル・エステ・フェイシャル | 完全個室の個人サロン",
-    description: "完全個室で寛げる個人サロン。ジェルネイル・フェイシャル・ボディトリートメントで、あなただけの贅沢な時間を。",
+    title: "Beauté Mirenu | ネイル・エステ・フェイシャル | 完全個室の個人サロン",
+    description: "Beauté Mirenuは完全個室で寛げる個人サロン。ジェルネイル・フェイシャル・ボディトリートメントで、あなただけの贅沢な時間を。",
     ogImage: "/og-image.png",
     url: "https://example.com",
   },
@@ -66,19 +66,19 @@ export const site: SiteContent = {
     href: "#contact",
   },
   psychology: {
-    scarcityBanner: { enabled: false, text: "今月限定: 初回トライアルコースが50%OFF" },
+    scarcityBanner: { enabled: false, text: "ご新規様歓迎: 初回トライアルコースをご用意しています" },
     socialProofStats: [
       { value: "完全個室", label: "プライベート空間" },
       { value: "当日OK", label: "当日予約受付中" },
-      { value: "カウンセリング", label: "丁寧なヒアリング" },
+      { value: "事前相談", label: "丁寧なヒアリング" },
     ],
     lossAversion: { enabled: false, text: "肌・爪のケアを後回しにするほど、回復にかかる時間と費用が増えていきます。" },
     priceAnchoring: { enabled: false },
-    limitedOffer: { enabled: false, text: "5月限定 / 初回体験コース先着10名様" },
+    limitedOffer: { enabled: false, text: "ご新規様歓迎 / 初回体験コースをご用意しています" },
   },
   hero: {
     title: "自分だけの時間を、ここで。",
-    lead: "Salon AOIは、ネイル・エステ・フェイシャルを提供する架空の完全個室サロンです。プロの技術と落ち着いた空間で、日常を切り離すひとときを。",
+    lead: "Beauté Mirenuは、ネイル・エステ・フェイシャルを提供する架空の完全個室サロンです。プロの技術と落ち着いた空間で、日常を切り離すひとときを。",
     videoSrc: "/hero-video.mp4",
     secondaryCta: "メニューを見る",
   },
@@ -103,7 +103,7 @@ export const site: SiteContent = {
   },
   features: {
     eyebrow: "Solution",
-    title: "Salon AOIが選ばれる3つの理由",
+    title: "Beauté Mirenuが選ばれる3つの理由",
     lead: "技術と空間、そして安心感にこだわった個人サロンです。",
     items: [
       {
@@ -179,7 +179,7 @@ export const site: SiteContent = {
       },
       {
         name: "ネイル + フェイシャル",
-        note: "一番人気の組み合わせコース",
+        note: "ネイルとフェイシャルの組み合わせコース",
         regularPrice: "18,000円",
         currentPrice: "9,800円",
         recommended: true,
@@ -205,7 +205,7 @@ export const site: SiteContent = {
       },
       {
         question: "当日予約はできますか？",
-        answer: "空きがあれば当日でもご予約いただけます。お電話またはLINEでご連絡ください。",
+        answer: "空きがあれば当日でもご予約いただけます。お問い合わせフォームからご相談ください。",
       },
       {
         question: "子ども連れでも来店できますか？",
@@ -217,7 +217,7 @@ export const site: SiteContent = {
       },
       {
         question: "支払い方法は何がありますか？",
-        answer: "現金・各種クレジットカード・PayPay・LINEPayに対応しています。",
+        answer: "現金・各種クレジットカード・QR決済に対応しています。",
       },
       {
         question: "キャンセルポリシーはありますか？",
@@ -238,7 +238,7 @@ export const site: SiteContent = {
   footer: {
     sns: [
       { label: "Instagram", href: "#" },
-      { label: "LINE", href: "#" },
+      { label: "予約フォーム", href: "#contact" },
       { label: "X", href: "#" },
     ],
   },
