@@ -19,7 +19,7 @@ npm run dev
 
 - `company`: 社名、屋号、サービス名
 - `meta`: title、description、OG画像
-- `meta.url`: Vercel公開後のURL。OG画像解決に使います
+- `meta.url`: 公開後のURL。OG画像解決に使います
 - `nav`: ヘッダーナビ。5項目以内推奨
 - `cta`: 全CTAの共通テキスト
 - `hero`: ファーストビュー
@@ -97,12 +97,15 @@ form: {
 
 フォーム項目は、認知負荷を下げるため `名前 / メール / メッセージ` の3項目に絞っています。
 
-## 6. Vercelへデプロイする
+## 6. Cloudflare Pagesへデプロイする
 
 1. GitHubにこのプロジェクトをpush
-2. Vercelで「Add New Project」を選択
-3. 対象リポジトリを選ぶ
-4. Framework Preset が Next.js であることを確認
-5. Deploy を押す
+2. `npm run build` で静的書き出しを実行
+3. `out/` ディレクトリをCloudflare Pagesにデプロイ
 
 環境変数は標準状態では不要です。
+
+## 公開URL
+
+- Cloudflare Pages: https://lp-beauty-template.pages.dev/
+- Vercel: https://lp-beauty-template.vercel.app/（移行期間中のみ併存）

@@ -79,9 +79,11 @@
 
 - ローカルパス: `~/dev/templates/lp-beauty-template/`
 - GitHub: https://github.com/kento19880102-maker/lp-beauty-template (Public)
+- Cloudflare Pages URL: https://lp-beauty-template.pages.dev/
 - Vercel Production URL: https://lp-beauty-template.vercel.app/
 - GitHub アカウント: `kento19880102-maker`
-- Vercel: GitHub 連携で main push 自動デプロイ
+- Cloudflare Pages: 静的書き出し済み `out/` をデプロイ
+- Vercel: 移行期間中のみ併存（後日停止判断）
 - 派生元: `~/dev/templates/lp-psychology-template/`
 
 ---
@@ -158,9 +160,9 @@ cd ~/dev/templates/lp-beauty-template && npm run dev
 # 別ターミナルで http://localhost:3000 を開く
 ```
 
-### Vercel 本番反映確認
+### Cloudflare Pages 本番反映確認
 ```bash
-curl -I https://lp-beauty-template.vercel.app/
+curl -I https://lp-beauty-template.pages.dev/
 # HTTP 200 を確認
 ```
 
